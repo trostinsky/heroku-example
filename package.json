@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd heroku-frontend && react-scripts build && node app.js"
+    "start": "cd heroku-frontend && npm install && react-scripts build && node app.js"
   },
   "repository": {
     "type": "git",
